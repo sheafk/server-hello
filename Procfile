@@ -1,1 +1,1 @@
-web: server-hello —port=$PORT
+web: server-hello --port=$PORT
