@@ -4,8 +4,9 @@ print("My serving is starting")
 
 let server = Droplet()
 
-server.get("hello") { request in
+server.get("/") { request in
     return "Hello Shea"
 }
 
+serve()
 server.run()
