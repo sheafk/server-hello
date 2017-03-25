@@ -2,11 +2,11 @@ import Vapor
 
 print("My serving is starting")
 
-let server = Droplet()
+let drop = Droplet()
 
-server.get("/") { request in
+drop.get("/") { request in
     return "Hello Shea"
 }
 
-serve()
-server.run()
+//serve()
+drop.run()
